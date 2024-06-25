@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<embed src="http://127.0.0.1:4000/files/about.pdf" type="application/pdf" height="400px" />
+<embed src="/files/about.pdf" type="application/pdf" height="400px" />
 
 # **A.** **教育背景**
 
