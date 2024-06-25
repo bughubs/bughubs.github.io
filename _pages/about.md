@@ -1,49 +1,128 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "个人简历"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+<embed src="http://127.0.0.1:4000/files/about.pdf" type="application/pdf" height="400px" />
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+# **A.** **教育背景**
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+<table>
+    <tr>
+        <td>2018/09-2022/06</td>
+        <td>中南大学(985)</td>
+        <td>地球科学与信息物理学院</td>
+        <td>理学学士</td>
+        <td>地理信息科学</td>
+    </tr>
+    <tr>
+        <td colspan="5">综合排名:4/59</td>
+    </tr>
+    <tr>
+        <td>2021/09-2024/06</td>
+        <td>武汉大学(985)</td>
+        <td>遥感信息工程学院</td>
+        <td>工学硕士(在读)</td>
+        <td>摄影测量与遥感</td>
+    </tr>
+    <tr>
+        <td colspan="5">导师：袁强强，苏鑫，张良培大组</td>
+    </tr>
+</table>
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+# **B.** **科研成果**
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+（在投，二审小修已经提交）**Ruiyang Sun,** Xin Su*, Qiangqiang Yuan, Hongzan Jiao, Jiang He, Li Zheng. Urban region function classification via fusing optical imagery and social media data: A spatio-temporal Transformer interaction approach. ***Information Fusion.\*** (SCI 一区, IF = 18.6)
 
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+# **C.** **会议经历及获奖荣誉**
 
-**Markdown generator**
+| 序号 |                             经历                             |   年度    |
+| :--: | :----------------------------------------------------------: | :-------: |
+|  1.  | GSCS&ICUI2023全球智慧城市峰会暨第三届国际城市信息国际会议 英文口头汇报 |   2023    |
+|  2.  |     “南方测绘杯”第十二届全国大学生测绘科技论文竞赛特等奖     |   2021    |
+|  3.  |              全国第六届大学生艺术展演一等奖2021              |   2021    |
+|  4.  |                  优秀学生、学业奖学金多次。                  | 2018-2022 |
 
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
+# **D.** **研究经历**
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+<table>
+    <tr>
+        <td>基于光学图像和社交媒体数据融合面向城市功能区分类的时空Transformer交互方法</td>
+        <td>Information Fusion二审小修，在GSCS&ICUI2023国际会议做英文口头汇报</td>
+        <td>2022/06至今</td>
+    </tr>
+    <tr>
+        <td colspan="3">提出一种面向城市功能区分类顾及时空信息交互的光学遥感图像和社交媒体数据融合方法。</td>
+    </tr>
+    <tr>
+        <td>2021/09-2024/06</td>
+        <td>武汉大学(985)</td>
+        <td>遥感信息工程学院</td>
+    </tr>
+    <tr>
+        <td colspan="3">导师：袁强强，苏鑫，张良培大组</td>
+    </tr>
+</table>
 
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
+◆ **基于光学图像和社交媒体数据融合面向城市功能区分类的时空Transformer交互方法**
+(Information Fusion二审小修，在GSCS&ICUI2023国际会议做英文口头汇报)   2022/06至今
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+- 提出一种面向城市功能区分类顾及时空信息交互的光学遥感图像和社交媒体数据融合方法。
+
+- 该方法首次将双Transformer架构用于多模态异构数据融合的城市功能区分类任务。
+
+- 利用设计的多时域卷积Transformer 对签到数据的时间序列模式进行挖掘。
+
+- 设计多尺度特征映射丰富Transformer对光学遥感图像的细粒度特征捕获。
+
+- 通过两种融合损失函数（深度蒸馏和深度监督损失），辅助多分支深度学习网络的融合训练。
+
+**掌握技能：** PyTorch, 深度学习模型（Transfromer, ResNet, VGG16, LSTM等），Visio，论文写作
+
+
+
+◆ **空间演化社团探测的进化蚁群优化方法** (全国大学生测绘科技论文竞赛特等奖)   2021
+
+-  提出了一种从城市交通流数据中识别出动态空间社团的进化蚁群方法。
+
+-  使用空间扫描统计获得初始时段的空间社团，进而使用进化蚁群方法迭代获得后续时段的空间社团，最后对不同时段切片的显著社团识别结果使用Jaccard相似系数进行匹配以获得社团的动态演变。
+
+**掌握技能：** 进化蚁群优化、网络分析、Python、ArcGIS、Latex论文写作
+
+
+
+◆ **新冠肺炎疫情流行特征及时空演变分析**（省级大学生创新训练项目）2020
+
+-  采集全国市级行政区划逐日感染人数并进行空间探索性分析。
+
+-  使用引力模型探究并解释疫情传播与人口、经济之间的关系。
+
+**掌握技能：** 网络爬虫、引力模型、Python、ArcGIS、论文写作
+
+# **E.** **研究兴趣**
+
+◆ 异构多模态数据融合（图像与时序数据、图像与文本数据）
+
+◆ 时序社交数据  
+
+◆ 遥感、街景图像
+
+◆ 深度学习算法  
+
+◆ 多模态大模型
+
+# **F.** **基础技能水平**
+
+◆ **英语**： 四、六级均500+，擅长英文写作，2021年曾考取雅思6.5（小分6.0）
+
+◆ **编程**： Python, SQL, R,C++, Java, JavaScript, C#, Matlab等。熟悉PyTorch框架。
+
+◆ **软件**： ArcGIS、QGIS、SPSS、ENVI、Microsoft Office (Word/Excel/PPT/Visio)、Zotero、Latex
+
+# **G.** **个人兴趣特长**
+
+曾有7年的学校交响乐团小提琴及中提琴演奏经历。高中时以小提琴手身份随兰州一中高中交响乐团访问德国演出，获得中德文化艺术交流年金奖，大学时曾先后在中南大学梅溪湖新春音乐会等重大演出中担任中提琴手，获湖南省第六届大学生艺术展演一等奖、全国第六届大学生艺术展演一等奖。
