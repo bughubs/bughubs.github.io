@@ -6,7 +6,6 @@ redirect_from:
   - /about/
   - /about.html
 ---
-<embed src="/files/about.pdf" type="application/pdf" height="400px" />
 
 # **A.** **教育背景**
 
@@ -22,7 +21,7 @@ redirect_from:
         <td colspan="5">综合排名:4/59</td>
     </tr>
     <tr>
-        <td>2021/09-2024/06</td>
+        <td>2022/09-2025/06</td>
         <td>武汉大学(985)</td>
         <td>遥感信息工程学院</td>
         <td>工学硕士(在读)</td>
