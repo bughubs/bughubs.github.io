@@ -12,8 +12,8 @@ main:
   # - title: "Portfolio"
   #   url: /portfolio/
         
-  - title: "文献笔记"
-    url: /year-archive/
+  # - title: "文献笔记"
+  #   url: /#-文献笔记
     
   # - title: "CV"
   #   url: /cv/

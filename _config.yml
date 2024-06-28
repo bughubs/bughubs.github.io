@@ -21,12 +21,12 @@ repository               : "bughubs/bughubs.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"
   name             : "孙瑞阳"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Wuhan, China"
-  employer         : "Wuhan University"
+  bio              : "研究兴趣：异构多模态数据融合"
+  location         : "武汉大学 信息工程学院"
+  employer         : "摄影测量与遥感"
   uri              : # URL
   email            : "sunruiyang@whu.edu.cn" 
 
